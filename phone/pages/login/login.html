@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<title>小谷邮局</title>
+	<link rel="stylesheet" type="text/css" href="../../app.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body class="bodyimg">
+
+	<div class="bodyflex" id="app">
+		<div class="dxhead">
+			小谷邮局
+		</div>
+
+		<div class="content">
+
+			<div>
+				<div class="title flexlayout">
+					<div class="leftTitle" @click='ret'>
+						返回
+					</div>
+
+					<div>
+						小谷邮局
+					</div>
+
+					<div class="refresh" @click='refresh'>
+						刷新
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="info">
+				<div class="flexlayout">
+					<span>用户名</span>
+					<div class="inputWrap">
+						<input name="" placeholder="请输入账号" v-model="usernameInput" />
+					</div>
+				</div>
+
+
+				<div class="flexlayout">
+					<span>密码</span>
+					<div class="inputWrap">
+						<input name="" placeholder="请输入密码" type="password" v-model="passwordInput" />
+					</div>
+				</div>
+			</div>
+
+
+			<div class="button" @click='login'>
+				登录
+			</div>
+
+			<div class="button" @click='reg'>
+				注册
+			</div>
+
+			<div class="inputWrap"></div>
+
+			<div>
+				<img class="ad" src="../../images/ad.fw.png">
+			</div>
+		</div>
+	</div>
+
+
+			<!--引入vue.js数据渲染引擎-->
+			<script src="../../lib/vue.min.js"></script>
+			<!-- 引入Bomb.js后端交互工具 -->
+			<script src="../../lib/Bmob-1.7.1.min.js"></script>
+			<!-- 公共Js代码 -->
+			<script src="../../app.js"></script>
+			<!-- 本页面Js代码 -->
+			<script src="login.js"></script>
+
+
+
+</body>
+
+</html>

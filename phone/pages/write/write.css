@@ -1,0 +1,57 @@
+
+
+.ret {
+	text-align: left;
+}
+
+.refresh {
+	text-align:right;
+}
+.form {
+	padding:12px; background: rgba(203, 179, 168, 0.8);
+}
+.inputWrap {
+	flex: 1;
+}
+.layer {
+	margin-left: 3.5rem; margin-bottom: 12px;
+}
+.layer span {
+	color: #FFF;
+}
+.write {
+	margin-top: 1.5rem; padding: 12px; background:rgba(203,179,168,0.8);
+}
+.changeImg {
+	display: flex; margin-left:3.5rem; margin-top: 1.5rem;
+}
+.changeImg img {
+	height:60px;
+}
+.updateImg {
+	background:#333;
+	height: 60px; width: 60px;font-size:2.125rem;
+	color:#FFF;
+}
+.push {
+	background: #333; height: 60px; width: 60px; font-size: 2.125rem;color:#FFF;
+}
+.tip {
+	margin:1.5rem 0 0 3.5rem;
+	/*margin:1.5rem 0;*/
+	/*margin-left: 3.5rem;*/
+}
+.tip span{
+
+	color: #fff;
+}
+
+.placeholder {
+	flex: 1;
+}
+.center {
+	margin:0 auto;
+}
+.full {
+	flex: 1;
+}

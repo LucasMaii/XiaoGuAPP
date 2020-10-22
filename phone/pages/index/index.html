@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5,  -->
+	<!-- maximum-scale=2.0, user-scalable=yes" /> -->
+            
+     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+	<title>小谷邮局</title>
+	<link rel="stylesheet" type="text/css" href="../../app.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+
+		<div class="bodyimg" id="app">
+			<div class="dxhead">
+				小谷邮局
+			</div>
+
+			<div class="placeholder"></div>
+			<div class="btnWrap">	
+			    <div class="button" @click="toWrite">
+					写信给TA
+				</div>
+				<div class="button" @click="toMyMail">
+					打开信箱
+				</div>
+			</div>
+		</div>
+
+			<!--引入vue.js数据渲染引擎-->
+			<script src="../../lib/vue.min.js"></script>
+			<!-- 引入Bomb.js后端交互工具 -->
+			<script src="../../lib/Bmob-1.7.1.min.js"></script>
+			<!-- 公共Js代码 -->
+			<script src="../../app.js"></script>
+			<!-- 本页面Js代码 -->
+			<script src="index.js"></script>
+
+		
+
+
+</body>
+
+
+
+</html>

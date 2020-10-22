@@ -1,0 +1,23 @@
+.bodyimg {
+	display: flex;
+	flex-flow: column;
+}
+
+.placeholder {
+	flex: 1;
+}
+
+.btnWrap {
+	margin-bottom: 9.375rem;
+	margin-left: 3.125rem;
+	color: #FFF;
+}
+
+.button {
+	background: rgba(224, 70, 19, 1);
+	width: 5em;
+}
+
+.inputWrap1 {
+	
+}

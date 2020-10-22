@@ -1,0 +1,169 @@
+﻿/*默认样式*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+html,body {
+    font-size: 16px;
+    height: 100%;
+}
+
+ul {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    height: 2.75rem;
+    width: 100%;
+    border: none;
+    padding-left: 0.5rem;
+}
+
+
+/*主体背景*/
+.bodyimg {
+    background-image: url(images/1.png);
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+/*顶部标题*/
+.dxhead {
+    /* height: 3.125rem;
+    line-height: 3.125rem; */
+    height: 3rem;
+    line-height: 3rem;
+
+    text-align: center;
+    /* background: #f2f2f2; */
+    background: rgba(255,255,255,0.8);
+
+}
+
+.bodyflex {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+/*主体内容*/
+.content {
+    margin: 12px;
+    padding: 12px;
+    background: rgba(224,70, 19, 0.8);
+    /*height: 56.25rem; */
+    flex: 1;
+    overflow-y: scroll;
+    display: flex;
+    flex-flow: column;
+}
+
+
+/*广告*/
+.ad{
+    margin-top: 24px;
+    height: 4rem;
+    width: 100%;
+}
+
+/*内用标题*/
+.content .title{
+    /* height:50px; */
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.title div{
+    flex: 1;
+    padding-bottom: 1.5rem;
+}
+
+/*底部栏*/
+.footer {
+    height: 4rem;
+    /*position: fixed;
+    bottom: 0;*/
+   font-size: 0.8125rem;
+    text-align: center;
+    background: rgba(224, 70, 19, 0.8);
+    color: #FFF;
+}
+
+.footer div {
+    width: 1rem;
+    margin: 0 auto;
+}
+
+
+.footer  a{
+    color: #FFF;
+
+}
+
+/*按钮*/
+.button {
+    margin-top: 1.5rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    background: #FFF;
+}
+
+
+
+
+
+/*flex盒子*/
+.flexlayout {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.flexlayout li{
+    flex: 1;
+}
+
+.flexlayout span {
+    width: 3.5rem;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

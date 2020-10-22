@@ -1,0 +1,34 @@
+.ret {
+	text-align: right;
+}
+
+.form {
+	padding: 12px;
+	background: rgba(203, 179, 168, 0.8);
+}
+
+.form .flexlayout {
+	margin-bottom: 12px;
+}
+
+
+.inputWrap,
+.placeholder {
+	flex: 1;
+}
+
+.inputWrap1 input{
+	width: 130px;
+}
+
+.getSms {
+	margin-left: 1.5rem;
+	padding: 0 0.4rem;
+	line-height: 2.75rem;
+	height: 2.75rem;
+	text-align: center;
+	background: #C4E1FF;
+}
+
+
+

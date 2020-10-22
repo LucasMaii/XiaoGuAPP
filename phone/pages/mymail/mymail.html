@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<title>小谷邮局</title>
+	<link rel="stylesheet" type="text/css" href="../../app.css">
+	<link rel="stylesheet" type="text/css" href="mymail.css">
+</head>
+<body class="bodyimg">
+
+		<div class="bodyflex" id="app">
+			<div class="dxhead">
+				小谷邮局
+			</div>
+
+
+		<div class="content">
+
+			<div>
+					<div class="title flexlayout">
+						<div></div>
+						<div>我的信箱</div>
+						<div class="refresh" @click="refresh">刷新</div>
+					</div>
+			</div>
+
+					<div class="defaultLetter" v-for="(item, i) in list" :key="i" @click="enter(item)">
+
+						<div class="flexlayout">
+
+							<div class="defaultDate">
+								<div>
+									{{ item.day }}
+								</div>
+								<div class="defaultYear">
+									{{ item.year }}
+								</div>
+							</div>
+							<div class="letter">
+								<div class="Mailtitle">
+									<!--一句话标题句话标题1312aA-->
+									{{item.letterTitle}}
+								</div>
+								<div class="send">
+									<!--来自13112341234/Lucas_Mai-->
+									来自{{item.senderMobile}}/昵称
+								</div>
+								
+							</div>
+						</div>
+
+					</div>
+
+					<!-- <div class="defaultLetter">
+
+						<div class="flexlayout">
+
+							<div class="defaultDate">
+								<div>
+									17
+								</div>
+								<div class="defaultYear">
+									2019.08				
+								</div>
+							</div>
+							<div class="letter">
+								<div class="Mailtitle">
+									一句话标题句话标题1312aA
+								</div>
+								<div class="send">
+									来自13112341234/Lucas_Mai
+								</div>
+								
+							</div>
+						</div>
+
+					</div> -->
+
+					<div class="activeLetter">
+
+						<div class="flexlayout">
+
+							<div class="activeDate">
+								<div>
+									17
+								</div>
+								<div class="activeYear">
+									2019.08				
+								</div>
+							</div>
+							<div class="letter">
+								<div class="Mailtitle">
+									一句话标题句话标题1312aA
+								</div>
+								<div class="send">
+									来自13112341234/Lucas_Mai
+								</div>
+								
+							</div>
+						</div>
+					</div>
+
+
+
+					
+							<div class="button" @click="more">
+								更多
+							</div>
+
+							<div class="placeholer"></div>
+
+
+
+						<!-- advertise -->
+						<div>
+							<img class="ad" src="../../images/ad.fw.png" />
+						</div>
+						<!--advertise end-->
+							
+						</div>
+
+
+
+
+
+
+
+
+				<ul class="footer flexlayout">
+
+
+					<li>
+						<div><a href="../write/write.html"><img src="../../images/write.png"/ ></div>写信</a>
+					</li>
+	
+					<li>
+						<div><a href="../mymail/mymail.html"><img src="../../images/read.png"  ></div>信箱</a>
+					</li>
+	
+					<li>
+						<div><a href="../index/index.html"><img src="../../images/ground.png" ></div>广场</a>
+					</li>
+	
+					<li>
+						<div><a href="../about/about.html"><img src="../../images/more.png"  ></div>发现</a>
+					</li>
+	
+					<li>
+						<div><a href="../person/person.html"><img src="../../images/person.png"  ></div>我的</a>
+					</li>
+	
+	
+				</ul>
+
+
+
+		
+	
+	</div>
+		<!--引入vue.js数据渲染引擎-->
+		<script src="../../lib/vue.min.js"></script>
+		<!-- 引入Bomb.js后端交互工具 -->
+		<script src="../../lib/Bmob-1.7.1.min.js"></script>
+		<!-- 公共Js代码 -->
+		<script src="../../app.js"></script>
+		<!-- 本页面Js代码 -->
+		<script src="mymail.js"></script>
+
+
+</body>
+</html>

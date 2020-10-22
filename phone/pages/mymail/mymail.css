@@ -1,0 +1,38 @@
+.refresh {
+	text-align: right;
+}
+.Mailtitle {
+	width: 100%;
+}
+.send {
+	font-size: 0.8125rem; color: #333;
+}
+.letter {
+	flex : 1; padding-left: 0.75rem;
+	overflow: hidden; text-overflow: ellipsis;white-space: nowrap;
+}
+.placeholer {
+	flex: 1;
+}
+.defaultLetter {
+	padding: 12px; background: rgba(203,179,168,0.8);
+}
+.defaultDate{
+	text-align: center; color: #f40; background: #fff; padding: 8px;
+}
+.defaultYear{
+	font-size: 0.8125rem;
+}
+
+
+.activeLetter {
+	 padding: 12px; background: rgba(203,179,168,0.8);margin-top: 12px;
+}
+
+.activeDate{
+	text-align: center; color: #ffffff; background: #f40; padding: 8px;
+}
+
+.activeYear {
+	font-size: 0.8125rem; color: #f2f2f2;
+}

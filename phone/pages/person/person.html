@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<title>小谷邮局</title>
+	<link rel="stylesheet" type="text/css" href="../../app.css">
+	<link rel="stylesheet" type="text/css" href="person.css">
+</head>
+<body class="bodyimg">
+
+		<div class="bodyflex" id="app">
+			<div class="dxhead">
+				小谷邮局
+			</div>
+
+
+		<div class="content">
+				<div class="title flexlayout">
+					<!-- <div class="title flexlayout"> -->
+						<div>个人中心</div>
+					<!-- </div> -->
+				</div>
+
+				<div class="contain">
+					<div>
+						<div class="data">
+
+
+							<img :src="userPic"/>
+							<!--<img src="../../images/userlogo.fw.png"/>-->
+							
+						</div>
+
+						<div class="name">
+							{{ name }}<br/>{{phone}}
+						</div>
+					</div>
+
+					<div class="about">
+						<a href="../about/about.html">了解小谷邮政</a>
+					</div>
+
+				</div>
+
+				<div>
+					<img src="../../images/ad.fw.png" />
+				</div>
+
+		</div>
+
+
+		<ul class="footer flexlayout">
+
+
+			<li>
+				<div><a href="../write/write.html"><img src="../../images/write.png"/ ></div>写信</a>
+			</li>
+
+			<li>
+				<div><a href="../mymail/mymail.html"><img src="../../images/read.png"  ></div>信箱</a>
+			</li>
+
+			<li>
+				<div><a href="../index/index.html"><img src="../../images/ground.png" ></div>广场</a>
+			</li>
+
+			<li>
+				<div><a href="../about/about.html"><img src="../../images/more.png"  ></div>发现</a>
+			</li>
+
+			<li>
+				<div><a href="../person/person.html"><img src="../../images/person.png"  ></div>我的</a>
+			</li>
+
+
+		</ul>
+
+
+	</div>
+
+		<!--引入vue.js数据渲染引擎-->
+		<script src="../../lib/vue.min.js"></script>
+		<!-- 引入Bomb.js后端交互工具 -->
+		<script src="../../lib/Bmob-1.7.1.min.js"></script>
+		<!-- 公共Js代码 -->
+		<script src="../../app.js"></script>
+		<!-- 本页面Js代码 -->
+		<script src="person.js"></script>
+
+
+
+
+</body>
+</html>

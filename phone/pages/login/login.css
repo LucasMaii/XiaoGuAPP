@@ -1,0 +1,20 @@
+.leftTitle {
+	text-align: left;
+}
+
+.refresh {
+	text-align: right;
+}
+
+.info {
+	padding: 12px;
+	background: rgba(203, 179, 168, 0.8);
+}
+
+.info .flexlayout {
+	margin-bottom: 12px;
+}
+
+.inputWrap {
+	flex: 1;
+}

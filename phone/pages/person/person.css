@@ -1,0 +1,32 @@
+.contain {
+	padding: 24px;
+	flex: 1;
+}
+
+.data {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.name {
+	margin-top: 24px;
+	text-align: center;
+	color: #FFF;
+}
+
+.about {
+	margin-top: 24px;
+	text-align: center;
+	color: #FFF;
+}
+
+.about a{
+
+	color: #FFF;
+
+}
+
+.ad {
+	width: 100%;
+}
